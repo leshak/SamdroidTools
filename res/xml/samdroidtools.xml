@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/sys_category"><PreferenceScreen android:title="@string/reboot_str" android:summary="@string/reboot_str_summ"><PreferenceScreen android:key="@string/hook_reboot" android:title="@string/reboot_system">
+
+</PreferenceScreen><PreferenceScreen android:title="@string/reboot_recovery" android:key="@string/hook_reboot_recovery"></PreferenceScreen><PreferenceCategory android:title="@string/reboot_options"></PreferenceCategory><CheckBoxPreference android:title="@string/reboot_confirmation" android:summaryOff="@string/reboot_confirmation_off" android:summaryOn="@string/reboot_confirmation_on" android:defaultValue="true" android:key="@string/reboot_ini_confirm"></CheckBoxPreference>
+
+</PreferenceScreen>
+<PreferenceScreen android:title="@string/backup_title">
+<PreferenceCategory android:title="@string/backup_app_cat"><PreferenceScreen android:title="@string/backup_apps_to_sd" android:key="@string/hook_backup_apps_to_sd" android:summary="@string/backup_apps_to_sd_summ"></PreferenceScreen>
+<PreferenceScreen android:title="@string/backup_restore_apps_from_sd" android:summary="@string/backup_restore_apps_from_sd_summ" android:key="@string/hook_restore_apps_from_sd"></PreferenceScreen>
+</PreferenceCategory>
+</PreferenceScreen>
+</PreferenceCategory><PreferenceCategory android:title="@string/apps2sd_category"><PreferenceScreen android:title="@string/apps2sd_ext2_size" android:key="@string/hook_sd_size"></PreferenceScreen><PreferenceScreen android:title="@string/apps2sd_internal_size" android:key="@string/hook_int_size">
+</PreferenceScreen><PreferenceScreen android:title="@string/apps2sd_settings"><CheckBoxPreference android:title="@string/app2sd_enable" android:key="@string/apps2sd_ini_enable" android:summaryOff="@string/app2sd_enable_summ_off" android:summaryOn="@string/apps2sd_enable_summ_on" android:defaultValue="false"></CheckBoxPreference><CheckBoxPreference android:defaultValue="false" android:key="@string/apps2sd_ini_move_dalvik_cache" android:title="@string/apps2sd_move_dalvik_cache" android:dependency="@string/apps2sd_ini_enable"></CheckBoxPreference>
+</PreferenceScreen>
+</PreferenceCategory>
+<PreferenceCategory android:title="@string/module_category"><ListPreference android:entries="@array/mtList" android:enabled="true" android:selectable="true" android:key="@string/module_touch" android:title="@string/module_chose_touch" android:dialogTitle="@string/module_chose_touch" android:entryValues="@array/mtListValues" android:defaultValue="v2.4"></ListPreference><CheckBoxPreference android:title="@string/module_load_tun" android:key="@string/module_ini_tun"></CheckBoxPreference>
+<CheckBoxPreference android:title="@string/module_load_cifs" android:key="@string/module_ini_cifs"></CheckBoxPreference>
+
+
+</PreferenceCategory>
+
+
+</PreferenceScreen>

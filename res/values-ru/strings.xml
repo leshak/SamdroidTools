@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Samdroid Tools</string>
+<string name="about_str">About</string>
+<string name="module_category">Модули (загружаются с системой)</string>
+<string name="apps2sd_category">Apps2sd</string>
+<string name="app2sd_enable">Активировать Apps2sd</string>
+<string name="apps2sd_enable_summ_on">Отключить функцию apps2sd</string>
+<string name="app2sd_enable_summ_off">Включить функцию apps2sd</string>
+
+<string name="apps2sd_move_dalvik_cache">Перенести dalvik-cache на SD</string>
+<string name="reboot_str">Перезагрузка</string>
+<string name="sys_category">Система</string>
+<string name="update_apply_any_zip">Установить update.zip</string>
+<string name="reboot_str_summ">Перезагрузить систему или перейти в Recovery</string>
+<string name="reboot_system">Перезагрузить систему</string>
+<string name="reboot_recovery">Перезагрузиться в Recovery</string>
+<string name="reboot_confirmation">Подтверждение перезагрузки</string>
+<string name="reboot_confirmation_on">Запрашивать подтверждение перезагрузки</string>
+<string name="reboot_confirmation_off">Не запрашивать подтверждение перезагрузки</string>
+<string name="reboot_options">Параметры перезагрузки</string>
+<string name="dlg_reboot_confirm">Вы правда хотите перезагрузить систему?</string>
+<string name="global_yes">Да</string>
+<string name="global_no">Нет</string>
+<string name="module_load_tun">tun.ko</string>
+<string name="module_load_cifs">cifs.ko</string>
+<string name="module_load_qt5480">Выключить мультитач</string>
+<string name="about_cat">Информация</string>
+
+<string name="apps2sd_settings">Настройки Apps2sd</string>
+<string name="apps2sd_internal_size">Память устройства</string>
+<string name="apps2sd_ext2_size">Память SD (для apps2sd)</string>
+<string name="backup_title">Бекап / Восстановка</string>
+<string name="backup_app_cat">Бекап приложений</string>
+<string name="backup_apps_to_sd">Бекап на SD</string>
+<string name="backup_restore_apps_from_sd">Восстановить с SD</string>
+<string name="backup_apps_to_sd_summ">Скопировать приложения на SD\n(/sdcard/samdroidtools)</string>
+<string name="backup_restore_apps_from_sd_summ">Восстановить приложения с SD в /data</string>
+<string-array name="mtList"><item>Multitouch v2.4</item>
+<item>Multitouch v1.0b</item>
+<item>Single touch</item>
+<item>Пользовательский touch-драйвер</item>
+</string-array>
+<string name="module_chose_touch">Touch-драйвер</string>
+<string-array name="mtListValues"><item>v2.4</item>
+<item>v1.0</item>
+<item>ST</item>
+<item>UT</item>
+</string-array>
+</resources>

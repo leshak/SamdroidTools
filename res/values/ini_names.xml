@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="apps2sd_ini_enable">apps2sd_enable</string>
+
+<string name="apps2sd_ini_move_dalvik_cache">apps2sd_move_dalvik_cache</string>
+<string name="hook_reboot">reboot_system</string>
+<string name="hook_reboot_recovery">reboot_recovery</string>
+<string name="reboot_ini_confirm">reboot_confirm</string>
+<string name="module_ini_tun">module_tun_on</string>
+<string name="module_ini_cifs">module_cifs_on</string>
+<string name="module_qt5480_on">module_qt5480_on</string>
+<string name="hook_sd_size">sd_size</string>
+<string name="hook_int_size">int_storage_size</string>
+<string name="hook_backup_apps_to_sd">backup_apps_to_sd</string>
+<string name="hook_restore_apps_from_sd">restore_apps_from_sd</string>
+<string name="module_touch">module_touch</string>
+</resources>

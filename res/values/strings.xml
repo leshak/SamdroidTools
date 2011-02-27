@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Samdroid Tools</string>
+<string name="about_str">About</string>
+<string name="module_category">Modules (load on boot)</string>
+<string name="apps2sd_category">Apps2sd</string>
+<string name="app2sd_enable">Enable Apps2sd</string>
+<string name="apps2sd_enable_summ_on">Disable apps2sd function</string>
+<string name="app2sd_enable_summ_off">Enable apps2sd function</string>
+
+<string name="apps2sd_move_dalvik_cache">Move dalvik-cache to SD</string>
+<string name="reboot_str">Reboot</string>
+<string name="sys_category">System</string>
+<string name="update_apply_any_zip">Install update.zip</string>
+<string name="reboot_str_summ">Reboot system or reboot to Recovery</string>
+<string name="reboot_system">Reboot system</string>
+<string name="reboot_recovery">Reboot to Recovery</string>
+<string name="reboot_confirmation">Reboot confirmation</string>
+<string name="reboot_confirmation_on">Requires user confirmation to reboot</string>
+<string name="reboot_confirmation_off">No user confirmation to reboot</string>
+<string name="reboot_options">Reboot options</string>
+<string name="dlg_reboot_confirm">Are you sure you want to reboot the system?</string>
+<string name="global_yes">Yes</string>
+<string name="global_no">No</string>
+<string name="module_load_tun">tun.ko</string>
+<string name="module_load_cifs">cifs.ko</string>
+<string name="module_load_qt5480">Disable Multitouch</string>
+<string name="about_cat">Info</string>
+
+<string name="apps2sd_settings">Apps2sd settings</string>
+<string name="apps2sd_internal_size">Internal storage</string>
+<string name="apps2sd_ext2_size">SD card (for apps2sd)</string>
+<string name="backup_title">Backup / Restore</string>
+<string name="backup_app_cat">Backup user applications</string>
+<string name="backup_apps_to_sd">Backup to SD</string>
+<string name="backup_restore_apps_from_sd">Restore from SD</string>
+<string name="backup_apps_to_sd_summ">Copy user applications to SD card\n(/sdcard/samdroidtools)</string>
+<string name="backup_restore_apps_from_sd_summ">Restore user applications from SD to /data</string>
+<string-array name="mtList"><item>Multitouch v2.4</item>
+<item>Multitouch v1.0b</item>
+<item>Single touch</item>
+<item>Users touch driver</item>
+</string-array>
+<string name="module_chose_touch">Touch driver</string>
+<string-array name="mtListValues"><item>v2.4</item>
+<item>v1.0</item>
+<item>ST</item>
+<item>UT</item>
+</string-array>
+</resources>
